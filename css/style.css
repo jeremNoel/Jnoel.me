@@ -1,0 +1,41 @@
+body {
+	background-color: #F5F5DC;
+}
+
+nav {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.navbar {
+	min-width: 75%;
+	height: 70px;
+	border-bottom: 2px solid black;
+}
+
+.navbar ul {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	align-items: center;
+}
+
+#navbar-list {
+	list-style: none;
+	font-weight: bolder;
+}
+
+#navbar-list a {
+	text-decoration: none;
+	color: grey;
+}
+
+#navbar-list a:hover {
+	color: red;
+}
+
+#logo-size {
+	width: 40px;
+	height: 40px;
+}
