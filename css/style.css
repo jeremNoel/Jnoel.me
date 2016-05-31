@@ -30,6 +30,8 @@
 
 .container-text img {
   position: relative;top: 50px;
+  width: 200px;
+  height: 200px;
 }
 
 .first_text {
@@ -66,7 +68,7 @@
 }
 
 .section:nth-child(2) {
- 
+
 }
 
 .container-second {
@@ -196,7 +198,12 @@
 /** FIN SKILL BAR**/
 
 .section:nth-child(3) {
-  color: orange;
+
+}
+
+.img-projet {
+  width: 200px;
+  height: 200px;
 }
 
 .section:nth-child(4) {

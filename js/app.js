@@ -10,6 +10,39 @@ jQuery('.skillbar').each(function(){
 			width:jQuery(this).attr('data-percent')
 		},6000);
 	});
+});
 
-  
+
+
+  var app = angular.module('myApp', []);
+
+  app.controller('MainCtrl', function($scope){
+
+  $scope.projects = [
+                  {
+                  "name": "PREMIER TEST",
+                  "version": "PREMIER TEST DE VERSION",
+                  "images": "img/logo.jpg"
+                  },
+                  {
+                  "name": "SECOND TEST",
+                  "version": "SECOND TEST DE VERSION",
+                  "images": "img/logo.jpg"
+                  },
+                  {
+                  "name": "TROISIEME TEST",
+                  "version": "TROISIEME TEST DE VERSION",
+                  "images": "img/logo.jpg"
+                  },
+                  {
+                  "name": "QUATRIEME TEST",
+                  "version": "QUATRIEME TEST DE VERSION",
+                  "images": "img/logo.jpg"
+                  },
+                  {
+                  "name": "CINQUIEME TEST",
+                  "version": "CINQUIEME TEST DE VERSION",
+                  "images": "img/logo.jpg"
+                }
+            ];
 });
