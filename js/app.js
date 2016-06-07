@@ -21,27 +21,32 @@ jQuery('.skillbar').each(function(){
   $scope.projects = [
                   {
                   "name": "PREMIER TEST",
-                  "version": "PREMIER TEST DE VERSION",
+                  "description": "PREMIER TEST DE description",
+                  "technos": "html/css",
                   "images": "img/logo.jpg"
                   },
                   {
                   "name": "SECOND TEST",
-                  "version": "SECOND TEST DE VERSION",
+                  "description": "SECOND TEST DE description",
+                  "technos": "html/css",
                   "images": "img/logo.jpg"
                   },
                   {
                   "name": "TROISIEME TEST",
-                  "version": "TROISIEME TEST DE VERSION",
+                  "description": "TROISIEME TEST DE description",
+                  "technos": "html/css",
                   "images": "img/logo.jpg"
                   },
                   {
                   "name": "QUATRIEME TEST",
-                  "version": "QUATRIEME TEST DE VERSION",
+                  "description": "QUATRIEME TEST DE description",
+                  "technos": "html/css",
                   "images": "img/logo.jpg"
                   },
                   {
                   "name": "CINQUIEME TEST",
-                  "version": "CINQUIEME TEST DE VERSION",
+                  "description": "CINQUIEME TEST DE description",
+                  "technos": "html/css",
                   "images": "img/logo.jpg"
                 }
             ];

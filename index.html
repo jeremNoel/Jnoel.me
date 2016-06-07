@@ -23,13 +23,6 @@
               <h3>à la recherche d'un contrat de professionnalisation pour septembre</h3></div>
           </div>
         </div>
-
-        <div class="test">
-            <div class="navbar"><button class="navbar-button">Accueil</button></div>
-            <div class="navbar"><button class="navbar-button">Compétences</button></div>
-            <div class="navbar"><button class="navbar-button">Projets</button></div>
-            <div class="navbar"><button class="navbar-button">Contact</button></div>
-        </div>
       </div>
 
 
@@ -70,10 +63,10 @@
           <div class="skill-bar-percent">50%</div>
         </div> <!-- End Skill Bar -->
 
-        <div class="skillbar clearfix " data-percent="50%">
+        <div class="skillbar clearfix " data-percent="40%">
           <div class="skillbar-title" style="background: #333333;"><span>Angular.js</span></div>
           <div class="skillbar-bar" style="background: #525252;"></div>
-          <div class="skill-bar-percent">50%</div>
+          <div class="skill-bar-percent">40%</div>
         </div> <!-- End Skill Bar -->
 
         <div class="skillbar clearfix " data-percent="60%">
@@ -94,11 +87,20 @@
 
 
       <div class="section" ng-controller="MainCtrl as controller">
-        <div class="slide" ng-repeat="projet in projects">
-          <h1>{{projet.name}}</h1>
-          <h2>{{projet.version}}</h2>
-          <img class="img-projet" ng-src="{{projet.images}}" />
-        </div>
+          <div class="slide" ng-repeat="projet in projects">
+            <div class="slide-container">
+              <div class="slide-css">
+                <div class="slide-text">
+                  <p>{{projet.name}}</p>
+                  <p>{{projet.description}}</p>
+                  <p>{{projet.technos}}</p>
+                </div>
+                <div class="slide-img">
+                  <img class="img-projet" ng-src="{{projet.images}}" />
+                </div>
+              </div>
+            </div>
+          </div>     
       </div>
 
 
@@ -107,3 +109,10 @@
   </div>
 </body>
 </html>
+
+
+<-- <div class="slide" ng-repeat="projet in projects">
+          <h1>{{projet.name}}</h1>
+          <h2>{{projet.version}}</h2>
+          <img class="img-projet" ng-src="{{projet.images}}" />
+        </div> -!>
