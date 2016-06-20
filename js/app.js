@@ -21,7 +21,7 @@ jQuery('.skillbar').each(function(){
   $scope.projects = [
                   {
                   "name": "Airbnb",
-                  "description": "Première maquette réalisée dans le cadre de notre apprentissage à l'intégration",
+                  "description": "Une des premières maquette réalisée dans le cadre de notre apprentissage à l'intégration",
                   "technos": "HTML5 CSS3",
                   "images": "img/airbnb.png",
                   "github" : "https://github.com/jeremNoel/airbnb"

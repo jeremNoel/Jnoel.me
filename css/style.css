@@ -53,20 +53,7 @@ body {
   flex-direction: row;
 }
 
-.navbar {
 
-}
-
-.navbar-button {
-  width: 100px;
-  height: 40px;
-  background-color: #EDF01D;
-  color: #201E21;
-  border: 0px;
-  border-radius: 8px;
-  font-weight: bolder;
-  cursor: hand;
-}
 
 .section:nth-child(2) {
 
@@ -82,22 +69,23 @@ body {
 }
 
 .prez {
-  background-color: #FFFBE7;
+  background-color: #EAF4D3;
   width: 500px;
   height: 450px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
-  border-top: 3px solid #D1C79F;
-  border-left: 3px solid #D1C79F;
-  border-bottom: 3px solid #D1C79F;
+  border-top: 3px solid #EDF01D;
+  border-left: 3px solid #EDF01D;
+  border-bottom: 3px solid #EDF01D;
 }
 
 .prez img {
   width: 200px;
   height: 150px;
-  border-radius: 50px;
+  border-bottom: 3px solid #EDF01D;
+  border-top: 3px solid #EDF01D;
 }
 
 .prez-text {
@@ -107,14 +95,14 @@ body {
 .skill {
   width: 500px;
   height: 450px;
-  background-color: #D1BD9F;
+  background-color: #EAF4D3;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
-  border-top: 3px solid #D1C79F;
-  border-right: 3px solid #D1C79F;
-  border-bottom: 3px solid #D1C79F;
+  border-top: 3px solid #EDF01D;
+  border-right: 3px solid #EDF01D;
+  border-bottom: 3px solid #EDF01D;
   padding-right: 10px;
 }
 
@@ -212,7 +200,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #FFFBE7;
+  background-color: #EAF4D3;
   border: 3px solid #F5DE2C;
   width: 80%;
   height: 80%;
@@ -280,7 +268,7 @@ body {
   width: 80%;
   height: 80%;
   border: 3px solid #F5DE2C;
-  background-color: #F0A830;
+  background-color: #EAF4D3;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -310,17 +298,17 @@ body {
   }
 
   .prez {
-    border-left: 3px solid #D1C79F;
-    border-top: 3px solid #D1C79F;
-    border-right: 3px solid #D1C79F;
+    border-left: 3px solid #EDF01D;
+    border-top: 3px solid #EDF01D;
+    border-right: 3px solid #EDF01D;
     font-size: 19px;
     text-align: center;
   }
 
   .skill {
-    border-left: 3px solid #D1C79F;
-    border-bottom: 3px solid #D1C79F;
-    border-right: 3px solid #D1C79F;
+    border-left: 3px solid #EDF01D;
+    border-bottom: 3px solid #EDF01D;
+    border-right: 3px solid #EDF01D;
     padding-right: 0px;
   }
 
