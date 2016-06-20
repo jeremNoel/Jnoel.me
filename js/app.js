@@ -23,7 +23,7 @@ jQuery('.skillbar').each(function(){
                   "name": "Airbnb",
                   "description": "Une des premières maquette réalisée dans le cadre de notre apprentissage à l'intégration",
                   "technos": "HTML5 CSS3",
-                  "images": "img/airbnb.png",
+                  "images": "img/airbnb.jpeg",
                   "github" : "https://github.com/jeremNoel/airbnb"
                   },
                   {
