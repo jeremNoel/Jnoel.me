@@ -1,3 +1,7 @@
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+
+}
 
 .section:nth-child(1) {
   background-image: url(http://static.simpledesktops.com/uploads/desktops/2010/04/05/jessneil-snacks.png);
@@ -5,6 +9,7 @@
   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
   background-size: cover; /* version standardisée */
   background-position: center;
+  font-size: 16px;
 }
 
 .firstDiv {
@@ -27,9 +32,8 @@
 }
 
 .container-text img {
-  position: relative;top: 50px;
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
 }
 
 .first_text {
@@ -40,7 +44,6 @@
   text-align: center;
   color: #201E21;
   font-weight: bolder;
-  margin-top: 75px;
 }
 
 .test {
@@ -79,11 +82,11 @@
 }
 
 .prez {
-  background-color: #D1BD9F;
+  background-color: #FFFBE7;
   width: 500px;
   height: 450px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-direction: column;
   border-top: 3px solid #D1C79F;
@@ -209,7 +212,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: green;
+  background-color: #FFFBE7;
+  border: 3px solid #F5DE2C;
   width: 80%;
   height: 80%;
 }
@@ -221,20 +225,108 @@
   justify-content: space-around;
   align-items: center;
   flex-direction: row;
-  flex-wrap: wrap-reverse;
 }
 
 .slide-text {
+  min-width: 250px;
+  min-height: 400px;
+  width: 40%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+} 
 
+.fa-github {
+  color: black;
+  align-self: center;
 }
 
-.slide-img  
+.project-github {
+  width: 80%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.slide-img {
+  width: 45%;
+  height: 60%;
+} 
 
 .img-projet {
-  width: 200px;
-  height: 200px;
+  width: 100%;
+  height: 100%;
 }
 
 .section:nth-child(4) {
-color: white;
+
+}
+
+.contact {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-text {
+  text-align: center;
+}
+
+.contact-social {
+  width: 80%;
+  height: 80%;
+  border: 3px solid #F5DE2C;
+  background-color: #F0A830;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.contact-link {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.contact-link a {
+  color: black;
+}
+
+@media screen and (min-width: 200px) and (max-device-width: 810px) {
+  .container-second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .prez {
+    border-left: 3px solid #D1C79F;
+    border-top: 3px solid #D1C79F;
+    border-right: 3px solid #D1C79F;
+    font-size: 19px;
+    text-align: center;
+  }
+
+  .skill {
+    border-left: 3px solid #D1C79F;
+    border-bottom: 3px solid #D1C79F;
+    border-right: 3px solid #D1C79F;
+    padding-right: 0px;
+  }
+
+}
+
+@media screen and (min-width: 819px) and (max-width: 1024px) {
+  
+
 }

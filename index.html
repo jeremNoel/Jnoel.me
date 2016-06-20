@@ -5,6 +5,11 @@
   <title>Site internet de jérémie Noël</title>
   <link rel="stylesheet" type="text/css" href="js/fullPage/jquery.fullPage.css" />
   <link rel="stylesheet" href="css/style.css">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
   <script src="js/fullPage/vendors/jquery.easings.min.js"></script>
@@ -34,8 +39,7 @@
               <img src="img/trombi5.jpg" alt="">
               <div class="prez-text">
                 <p>Actuellement apprenant en Développement Web front @Simplon.co , j'ai pu, dans le cadre de cette formation intensive et dans l'apprentissage en autonomie, découvrir et me familiariser avec différentes technos basées sur le front-end.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ex, earum velit culpa cum aliquam. Reiciendis, eveniet, pariatur. Quo tenetur dolores doloremque eum soluta necessitatibus ut nostrum? Adipisci, corrupti unde.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore ipsum autem quam, voluptates dolorum! Iste officiis minima cupiditate temporibus, aliquid aliquam ex sequi expedita dolores ipsa, hic unde? Blanditiis, molestias?</p>
+                <p>J'ai pu, avec deux années d'expériences professionnelles dans la vente/restauration, être habitué au cadre professionnel et le travail en équipe</p>
               </div>
             </div>
             <div class="skill">
@@ -91,9 +95,13 @@
             <div class="slide-container">
               <div class="slide-css">
                 <div class="slide-text">
-                  <p>{{projet.name}}</p>
-                  <p>{{projet.description}}</p>
-                  <p>{{projet.technos}}</p>
+                  <p id="name"><b>Projet :</b> {{projet.name}}</p>
+                  <p id="description"><b>Description :</b> {{projet.description}}</p>
+                  <p id="technos"><b>Techno utilisé/contrainte :</b> {{projet.technos}}</p>
+                  <div class="project-github">
+                    <a href="{{projet.github}}"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+                  </div>
+
                 </div>
                 <div class="slide-img">
                   <img class="img-projet" ng-src="{{projet.images}}" />
@@ -105,14 +113,26 @@
 
 
 
-      <div class="section">Contact</div>
+      <div class="section">
+        <div class="contact">
+          <div class="contact-social">
+                <div class="contact-link">
+
+                  <div class="link-text">
+                    <h2>N'hésitez pas à me contacter par les réseaux sociaux...</h2>
+                    <p>Je reste disponible sur toutes les plateformes</p>
+                  </div>
+                  <div class="contact-link">
+                    <a href="https://www.linkedin.com/in/jnoeldev" target="_blank"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
+                    <a href="https://twitter.com/JeremieNowel" target="_blank"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
+                    <a href="https://github.com/JeremNoel" target="_blank"><i class="fa fa-github-square fa-3x" aria-hidden="true"></i></a>
+                    <a href="mailto:dev.jnoel@gmail.com"><i class="fa fa-envelope fa-3x" aria-hidden="true"></i></a>
+                  </div>
+                </div>                
+          </div>
+        </div>
+      </div>
   </div>
 </body>
 </html>
 
-
-<-- <div class="slide" ng-repeat="projet in projects">
-          <h1>{{projet.name}}</h1>
-          <h2>{{projet.version}}</h2>
-          <img class="img-projet" ng-src="{{projet.images}}" />
-        </div> -!>

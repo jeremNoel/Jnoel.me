@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $('#fullpage').fullpage({
-    sectionsColor : ['#9E9E9E', '#F3EEBA', '#D1C79F', '#FFF8DC'],
+    sectionsColor : ['#9E9E9E', '#FEA837', '#D95B43', '#E4844A'],
     css3: true,
     scrollBar:true
   });
@@ -20,34 +20,32 @@ jQuery('.skillbar').each(function(){
 
   $scope.projects = [
                   {
-                  "name": "PREMIER TEST",
-                  "description": "PREMIER TEST DE description",
-                  "technos": "html/css",
-                  "images": "img/logo.jpg"
+                  "name": "Airbnb",
+                  "description": "Première maquette réalisée dans le cadre de notre apprentissage à l'intégration",
+                  "technos": "HTML5 CSS3",
+                  "images": "img/airbnb.png",
+                  "github" : "https://github.com/jeremNoel/airbnb"
                   },
                   {
-                  "name": "SECOND TEST",
-                  "description": "SECOND TEST DE description",
-                  "technos": "html/css",
-                  "images": "img/logo.jpg"
+                  "name": "Ariette Delatre",
+                  "description": "Réalisation d'un site au complet avec comme thême 'site de luxe' ",
+                  "technos": "HTML5 CSS3 uniquement",
+                  "images": "img/delatre.png",
+                  "github" : "https://github.com/jeremNoel/ariette"
                   },
                   {
-                  "name": "TROISIEME TEST",
-                  "description": "TROISIEME TEST DE description",
-                  "technos": "html/css",
-                  "images": "img/logo.jpg"
+                  "name": "Irving farm",
+                  "description": "Réalisation de notre toute première maquette, non fini, mais ça donne idée du avant/après",
+                  "technos": "HTML5 CSS3",
+                  "images": "img/irving.png",
+                  "github" : "https://github.com/jeremNoel/irvingfarm"
                   },
                   {
-                  "name": "QUATRIEME TEST",
-                  "description": "QUATRIEME TEST DE description",
-                  "technos": "html/css",
-                  "images": "img/logo.jpg"
-                  },
-                  {
-                  "name": "CINQUIEME TEST",
-                  "description": "CINQUIEME TEST DE description",
-                  "technos": "html/css",
-                  "images": "img/logo.jpg"
-                }
+                  "name": "Jnoel.me",
+                  "description": "Projet personnel : mon site internet, que vous pouvez-voir en direct",
+                  "technos": "HTML5 CSS3 AngularJS JQuery/Fullpage.js",
+                  "images": "img/logo.jpg",
+                  "github" : "https://github.com/jeremNoel/Jnoel.me"
+                  }
             ];
 });
